@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dépôt UDR</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #ffffff; --text: #1d1d1b; --muted: #6b6a66;
+    --line: #d9d7d1; --accent: #1f5f8b; --ok: #1e7a3c; --warn: #9a5b00; --bad: #b3261e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161615; --card: #20201e; --text: #ecebe7; --muted: #a3a29d;
+      --line: #3a3936; --accent: #6fb0e0; --ok: #6cc98a; --warn: #e0a84f; --bad: #f08a80;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  p.lead { color: var(--muted); margin: 0 0 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+  .drop { display: block; border: 2px dashed var(--line); border-radius: 8px; padding: 14px; margin-bottom: 12px; cursor: pointer; }
+  .drop.over { border-color: var(--accent); }
+  .drop.filled { border-style: solid; border-color: var(--ok); }
+  .drop strong { display: block; }
+  .drop .name { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
+  .drop input { display: none; }
+  .summary { font-size: .95rem; margin: 4px 0 12px; }
+  .badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-weight: 600; font-size: .85rem; }
+  .badge.draft { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+  .badge.live { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
+  button { font: inherit; font-weight: 600; background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+           padding: 12px 18px; width: 100%; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  progress { width: 100%; height: 10px; margin-top: 12px; }
+  #state { margin-top: 8px; font-weight: 600; }
+  #state.ok { color: var(--ok); } #state.warn { color: var(--warn); } #state.bad { color: var(--bad); }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--bg); border: 1px solid var(--line);
+        border-radius: 8px; padding: 12px; font-size: .85rem; margin: 12px 0 0; }
+  a { color: var(--accent); }
+  .small { font-size: .9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dépôt d'un pack de publication</h1>
+  <p class="lead">Déposer vaut approbation. Avec <code>"mode": "draft"</code> dans posts.json, rien n'est
+    publié : des brouillons sont créés chez Post For Me.</p>
+
+  <form id="form" class="card">
+    <label class="drop" data-field="posts_json">
+      <strong>1. posts.json</strong>
+      <span class="name">Glisser le fichier ici ou cliquer pour le choisir</span>
+      <input type="file" name="posts_json" accept=".json,application/json" required>
+    </label>
+    <div id="summary" class="summary" hidden></div>
+    <label class="drop" data-field="video_vertical">
+      <strong>2. Vidéo verticale (9:16, 1080×1920)</strong>
+      <span class="name">Glisser le fichier .mp4 ici ou cliquer pour le choisir</span>
+      <input type="file" name="video_vertical" accept=".mp4,video/mp4" required>
+    </label>
+    <label class="drop" data-field="video_horizontal">
+      <strong>3. Vidéo horizontale (16:9, 1920×1080)</strong>
+      <span class="name">Glisser le fichier .mp4 ici ou cliquer pour le choisir</span>
+      <input type="file" name="video_horizontal" accept=".mp4,video/mp4" required>
+    </label>
+    <button id="send" type="submit" disabled>Déposer et approuver</button>
+    <progress id="progress" max="100" value="0" hidden></progress>
+    <div id="state" role="status"></div>
+    <pre id="report" hidden></pre>
+  </form>
+
+  <p class="small">Pour un essai : <a href="/depot/pack-de-test.zip">télécharger un pack de test</a>
+    (Facebook seul, brouillon, vidéos factices). Décompresser le fichier puis déposer ses trois fichiers ici.
+    La génération prend une dizaine de secondes.</p>
+  <p class="small"><a href="/depot/comptes">Comptes connectés chez Post For Me</a> : les id <code>spc_…</code>
+    à reporter dans les variables Railway <code>PFM_ACCOUNT_…</code>.</p>
+</main>
+<script>
+(function () {
+  var form = document.getElementById("form");
+  var send = document.getElementById("send");
+  var bar = document.getElementById("progress");
+  var state = document.getElementById("state");
+  var report = document.getElementById("report");
+  var summary = document.getElementById("summary");
+  var inputs = form.querySelectorAll("input[type=file]");
+
+  function setState(text, kind) { state.textContent = text; state.className = kind || ""; }
+
+  function refresh() {
+    var all = true;
+    inputs.forEach(function (input) {
+      var zone = input.closest(".drop");
+      var file = input.files[0];
+      zone.classList.toggle("filled", !!file);
+      if (file) zone.querySelector(".name").textContent = file.name + " — " + (file.size / 1048576).toFixed(1) + " Mo";
+      else all = false;
+    });
+    send.disabled = !all;
+  }
+
+  function showSummary(file) {
+    var reader = new FileReader();
+    reader.onload = function () {
+      summary.hidden = false;
+      try {
+        var p = JSON.parse(reader.result);
+        var live = p.publish && p.publish.mode === "live";
+        var nets = p.posts ? Object.keys(p.posts).join(", ") : "aucun";
+        summary.innerHTML = "";
+        var badge = document.createElement("span");
+        badge.className = "badge " + (live ? "live" : "draft");
+        badge.textContent = live ? "LIVE : publication réelle" : "BROUILLON";
+        summary.append(badge, " Pack ", Object.assign(document.createElement("b"), {textContent: p.id || "?"}),
+                       " — réseaux : " + nets);
+      } catch (e) {
+        summary.textContent = "posts.json illisible : le service refusera le pack.";
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  inputs.forEach(function (input) {
+    var zone = input.closest(".drop");
+    input.addEventListener("change", function () {
+      if (input.name === "posts_json" && input.files[0]) showSummary(input.files[0]);
+      refresh();
+    });
+    zone.addEventListener("dragover", function (e) { e.preventDefault(); zone.classList.add("over"); });
+    zone.addEventListener("dragleave", function () { zone.classList.remove("over"); });
+    zone.addEventListener("drop", function (e) {
+      e.preventDefault(); zone.classList.remove("over");
+      if (!e.dataTransfer.files.length) return;
+      var dt = new DataTransfer(); dt.items.add(e.dataTransfer.files[0]);
+      input.files = dt.files;
+      input.dispatchEvent(new Event("change"));
+    });
+  });
+  // Un fichier lâché à côté d'une zone ne doit pas remplacer la page.
+  window.addEventListener("dragover", function (e) { e.preventDefault(); });
+  window.addEventListener("drop", function (e) { e.preventDefault(); });
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (send.disabled) return;
+    send.disabled = true;
+    report.hidden = true;
+    bar.hidden = false; bar.value = 0;
+    setState("Envoi des fichiers… 0 %");
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/depot/envoi");
+    xhr.setRequestHeader("X-UDR-Depot", "1");
+    xhr.upload.onprogress = function (ev) {
+      if (!ev.lengthComputable) return;
+      bar.value = Math.round(ev.loaded / ev.total * 100);
+      setState(bar.value < 100 ? "Envoi des fichiers… " + bar.value + " %"
+                               : "Fichiers reçus. Vérification, Cloudinary puis Post For Me… (quelques minutes)");
+    };
+    xhr.onload = function () {
+      bar.hidden = true;
+      send.disabled = false;
+      var body = null;
+      try { body = JSON.parse(xhr.responseText); } catch (err) { /* réponse non JSON */ }
+      if (!body) {
+        setState("Erreur " + xhr.status + " : " + (xhr.responseText || "réponse vide"), "bad");
+        return;
+      }
+      if (body.refused) setState("Pack refusé : rien n'a été envoyé. Détail ci-dessous.", "bad");
+      else if (body.ok) setState("Terminé. Rapport ci-dessous.", "ok");
+      else setState("Terminé avec des erreurs. Détail ci-dessous.", "warn");
+      report.textContent = body.report_text || body.error || JSON.stringify(body, null, 2);
+      report.hidden = false;
+    };
+    xhr.onerror = function () {
+      bar.hidden = true; send.disabled = false;
+      setState("Connexion interrompue. Le dépôt peut être relancé sans risque de doublon.", "bad");
+    };
+    xhr.send(new FormData(form));
+  });
+})();
+</script>
+</body>
+</html>

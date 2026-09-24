@@ -60,6 +60,7 @@ class Settings:
     data_dir: Path
     # Service HTTP
     service_token: str | None
+    page_password: str | None = None  # page de dépôt /depot ; absente sans mot de passe
     secrets: tuple[str, ...] = field(default=(), repr=False)
 
     @property
@@ -107,6 +108,7 @@ def load_settings(env_file: Path | None = None) -> Settings:
             opt("CLOUDINARY_API_KEY"),
             opt("CLOUDINARY_API_SECRET"),
             opt("PUBLISH_SERVICE_TOKEN"),
+            opt("PUBLISH_PAGE_PASSWORD"),
         ) if v
     )
     return Settings(
@@ -125,5 +127,6 @@ def load_settings(env_file: Path | None = None) -> Settings:
         min_lead_minutes=int(opt("PUBLISH_MIN_LEAD_MINUTES") or "5"),
         data_dir=Path(opt("PUBLISH_DATA_DIR") or REPO_ROOT / "data"),
         service_token=opt("PUBLISH_SERVICE_TOKEN"),
+        page_password=opt("PUBLISH_PAGE_PASSWORD"),
         secrets=secrets,
     )

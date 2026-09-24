@@ -63,6 +63,7 @@ python -m pytest            # tests hors réseau
 | `PUBLISH_MIN_LEAD_MINUTES` | délai minimal avant publication (5) |
 | `PUBLISH_DATA_DIR` | journal et verrous (`./data` ; Railway : `/data`, volume) |
 | `PUBLISH_SERVICE_TOKEN` | secret partagé avec n8n (service HTTP) |
+| `PUBLISH_PAGE_PASSWORD` | mot de passe de la page `/depot` (12 caractères min. ; vide = page désactivée) |
 | `PFM_AUTH_VIA_PROXY` | `1` seulement si la clé est injectée par un proxy |
 
 ## Ligne de commande
@@ -89,6 +90,13 @@ Codes de sortie : 0 tout va bien, 1 au moins un réseau en erreur, 2 pack refus�
    Le workflow exporté ne contient aucun credential.
 
 Suivi : `GET /packs/<id>/status` (même en-tête) renvoie le rapport de suivi.
+
+**Page de dépôt sans n8n** : `https://<domaine>/depot`, protégée par
+`PUBLISH_PAGE_PASSWORD` (le navigateur demande le mot de passe, nom d'utilisateur libre).
+On y glisse `posts.json` et les deux vidéos ; le rapport s'affiche à l'écran. La même page
+donne un pack de test à télécharger (`/depot/pack-de-test.zip`) et la liste des comptes
+Post For Me avec leurs id `spc_…` (`/depot/comptes`). Mode d'emploi pas à pas, sans
+terminal : [docs/GUIDE_RAILWAY.md](docs/GUIDE_RAILWAY.md).
 
 ## Tester en draft
 
