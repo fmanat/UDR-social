@@ -70,7 +70,23 @@ Rédigée le 2026-09-24, en fin de session des étapes A à C. La prochaine éta
 - **YouTube Shorts** : pas de notion distincte. C'est un second post YouTube avec la vidéo
   verticale.
 
-## Étape D : à faire dans la nouvelle session
+## Étape D : faite le 2026-09-24 (Railway + page /depot)
+
+Service Railway `udr-social-production.up.railway.app`, branche
+`claude/intelligent-curie-flk07e`, volume `/data`, `PUBLISH_ALLOW_LIVE=0`. Pack de test
+`UDR_test_20260924_111917` déposé par la page `/depot` (Facebook seul, draft) :
+
+- 1er dépôt : `Facebook : BROUILLON`, id Post For Me `sp_2rijdjtFIbhMGTTTMG`, vidéo
+  `…/video/upload/v1790249284/udr-publish/UDR_test_20260924_111917/horizontal.mp4` ;
+- 2e dépôt identique : `BROUILLON INCHANGÉ`, même id, rien renvoyé.
+
+Incident rencontré : `Invalid Signature` de Cloudinary, dû à un `CLOUDINARY_API_SECRET`
+qui ne correspondait pas à la clé ; corrigé en recopiant le secret de la même ligne de clé.
+
+Restent : brancher n8n (nouveau `PUBLISH_SERVICE_TOKEN` aléatoire), renseigner les autres
+`PFM_ACCOUNT_*`, puis un premier pack réel en draft sur tous les réseaux.
+
+## Étape D : procédure initiale en ligne de commande (pour mémoire)
 
 **Prérequis, côté Jean, dans l'environnement cloud** (sélecteur au-dessus de la zone de
 message → engrenage) :
