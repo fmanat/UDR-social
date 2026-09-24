@@ -1,0 +1,26 @@
+# Secrets — jamais commités
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Journal des envois et données locales
+data/
+*.jsonl
+
+# Packs de publication (les vidéos arrivent par le formulaire, jamais par le dépôt)
+packs/
+*.mp4
+*.mov
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Divers
+.DS_Store
