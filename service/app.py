@@ -11,6 +11,7 @@ reste dans udr_publish (la même que scripts/publish.py).
   POST /depot/envoi             dépôt depuis cette page (mêmes champs que /packs)
   GET  /depot/pack-de-test.zip  pack factice Facebook en draft, à redéposer par la page
   GET  /depot/comptes           comptes Post For Me connectés (id spc_… à poser dans PFM_ACCOUNT_*)
+  GET  /depot/suivi?pack=<id>   suivi d'un pack (même rapport que /packs/<id>/status, en texte)
 
 Authentification :
 - /packs : en-tête « Authorization: Bearer <PUBLISH_SERVICE_TOKEN> ». Sans
@@ -177,6 +178,16 @@ def create_app(settings: Settings | None = None, publisher_factory=None) -> Flas
             if variable:
                 lines.append(f"{'':<12} → {variable}" + (" : déjà en place" if configured else ""))
         return Response("\n".join(lines) + "\n", 200, mimetype="text/plain; charset=utf-8")
+
+    @app.get("/depot/suivi")
+    def depot_status():
+        if (denied := page_denied()) is not None:
+            return denied
+        pack_id = (request.args.get("pack") or "").strip()
+        if not valid_pack_id(pack_id):
+            return Response("Identifiant de pack invalide.\n", 400, mimetype="text/plain; charset=utf-8")
+        rep = publisher_factory().check(pack_id)
+        return Response(rep["report_text"], 200, mimetype="text/plain; charset=utf-8")
 
     @app.get("/packs/<pack_id>/status")
     def status(pack_id: str):

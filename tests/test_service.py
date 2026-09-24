@@ -154,3 +154,13 @@ def test_accounts_page_lists_ids_without_tokens(settings, world):
     text = c.get("/depot/comptes", headers=basic(PAGE_PASSWORD)).get_data(as_text=True)
     assert "spc_fb" in text and "PFM_ACCOUNT_FACEBOOK : déjà en place" in text
     assert "PFM_ACCOUNT_TIKTOK" in text and "JETON-SECRET" not in text
+
+
+def test_status_page(settings, world, make_pack):
+    c = page_client(settings, world)
+    pack = make_pack(lambda p: p.update(posts={"facebook": p["posts"]["facebook"]}))
+    c.post("/depot/envoi", data=form(pack), headers={**basic(PAGE_PASSWORD), "X-UDR-Depot": "1"})
+    assert c.get("/depot/suivi?pack=UDR_test_V1").status_code == 401
+    assert c.get("/depot/suivi?pack=../x", headers=basic(PAGE_PASSWORD)).status_code == 400
+    text = c.get("/depot/suivi?pack=UDR_test_V1", headers=basic(PAGE_PASSWORD)).get_data(as_text=True)
+    assert "Facebook : BROUILLON" in text
