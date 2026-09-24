@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://undernierregard.fr/schemas/posts.schema.json",
+  "title": "Pack de publication Un dernier regard — posts.json",
+  "description": "Structure du posts.json. Les règles de longueur et de format propres à chaque réseau sont vérifiées en plus par udr_publish/validate.py.",
+  "type": "object",
+  "required": ["id", "title", "publish", "media", "posts"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "Identifiant du pack : clé d'idempotence. Un même id n'est jamais publié deux fois.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,99}$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "format": "date" },
+    "publish": {
+      "type": "object",
+      "required": ["schedule"],
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "description": "draft (défaut si absent) : posts créés en brouillon chez Post For Me, rien n'est envoyé aux réseaux. live : posts programmés.",
+          "enum": ["draft", "live"],
+          "default": "draft"
+        },
+        "schedule": {
+          "description": "Date de publication, ISO 8601 avec fuseau (ex. 2026-09-24T19:30:00+02:00).",
+          "$ref": "#/$defs/datetime"
+        },
+        "linkedin_schedule": {
+          "description": "Date propre à LinkedIn ; à défaut, schedule.",
+          "$ref": "#/$defs/datetime"
+        }
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": ["vertical", "horizontal"],
+      "additionalProperties": false,
+      "properties": {
+        "vertical": { "$ref": "#/$defs/filename", "description": "Master 9:16, 1080×1920." },
+        "horizontal": { "$ref": "#/$defs/filename", "description": "Master 16:9, 1920×1080." }
+      }
+    },
+    "posts": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "facebook": { "$ref": "#/$defs/post" },
+        "instagram": { "$ref": "#/$defs/post" },
+        "youtube": { "$ref": "#/$defs/titled_post" },
+        "youtube_shorts": { "$ref": "#/$defs/titled_post" },
+        "tiktok": { "$ref": "#/$defs/post" },
+        "linkedin": { "$ref": "#/$defs/post" },
+        "x": { "$ref": "#/$defs/post" }
+      }
+    },
+    "founder_comment": {
+      "description": "Informatif : Post For Me ne publie pas de commentaire ; ce texte n'est pas envoyé.",
+      "type": "string"
+    },
+    "notes": { "description": "Informatif, jamais envoyé.", "type": "string" }
+  },
+  "$defs": {
+    "datetime": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2}(\\.\\d+)?)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "filename": {
+      "type": "string",
+      "pattern": "^[^/\\\\]+\\.mp4$"
+    },
+    "post": {
+      "type": "object",
+      "required": ["media", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "media": { "enum": ["vertical", "horizontal"] },
+        "text": { "type": "string", "minLength": 1 },
+        "enabled": {
+          "description": "false : réseau ignoré pour ce pack (clé conservée).",
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "titled_post": {
+      "type": "object",
+      "required": ["media", "text", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "media": { "enum": ["vertical", "horizontal"] },
+        "title": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "enabled": { "type": "boolean", "default": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "name": "UDR — dépôt d'un pack de publication",
+  "nodes": [
+    {
+      "parameters": {
+        "authentication": "basicAuth",
+        "formTitle": "Un dernier regard — dépôt d'un pack de publication",
+        "formDescription": "Déposer ce formulaire vaut approbation. Tant que posts.json contient \"mode\": \"draft\", rien n'est publié : des brouillons sont créés chez Post For Me. Le rapport par réseau arrive par e-mail.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "posts_json",
+              "fieldType": "file",
+              "acceptFileTypes": ".json",
+              "multipleFiles": false,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "video_vertical",
+              "fieldType": "file",
+              "acceptFileTypes": ".mp4",
+              "multipleFiles": false,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "video_horizontal",
+              "fieldType": "file",
+              "acceptFileTypes": ".mp4",
+              "multipleFiles": false,
+              "requiredField": true
+            }
+          ]
+        },
+        "responseMode": "onReceived",
+        "options": {
+          "path": "udr-depot-pack",
+          "appendAttribution": false,
+          "buttonLabel": "Déposer et approuver",
+          "respondWithOptions": {
+            "values": {
+              "respondWith": "text",
+              "formSubmittedText": "Pack reçu. Le rapport arrive par e-mail à jean@undernierregard.fr."
+            }
+          }
+        }
+      },
+      "id": "5b1c2f0e-8d4a-4c61-9a57-0f3e2d1a0001",
+      "name": "Formulaire de dépôt",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [0, 0],
+      "webhookId": "0c6f7a52-3a8e-4b2c-b1d4-6f9e8a7b0001"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://REMPLACER-PAR-LE-DOMAINE-RAILWAY.up.railway.app/packs",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "posts_json",
+              "inputDataFieldName": "posts_json"
+            },
+            {
+              "parameterType": "formBinaryData",
+              "name": "video_vertical",
+              "inputDataFieldName": "video_vertical"
+            },
+            {
+              "parameterType": "formBinaryData",
+              "name": "video_horizontal",
+              "inputDataFieldName": "video_horizontal"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 900000,
+          "response": {
+            "response": {
+              "neverError": true,
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "id": "5b1c2f0e-8d4a-4c61-9a57-0f3e2d1a0002",
+      "name": "Service de publication (Railway)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [260, 0],
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "fromEmail": "publication@undernierregard.fr",
+        "toEmail": "jean@undernierregard.fr",
+        "subject": "={{ $json.report_subject || '[UDR publication] réponse inattendue du service' }}",
+        "emailFormat": "text",
+        "text": "={{ $json.report_text || ('Réponse inattendue du service de publication :\\n' + JSON.stringify($json, null, 2)) }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "5b1c2f0e-8d4a-4c61-9a57-0f3e2d1a0003",
+      "name": "Rapport par e-mail",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [520, -100]
+    },
+    {
+      "parameters": {
+        "fromEmail": "publication@undernierregard.fr",
+        "toEmail": "jean@undernierregard.fr",
+        "subject": "[UDR publication] service de publication injoignable",
+        "emailFormat": "text",
+        "text": "={{ 'Le service de publication n\\'a pas répondu :\\n' + ($json.error?.message || JSON.stringify($json, null, 2)) + '\\n\\nLe pack n\\'a peut-être pas été traité. Vous pouvez le redéposer sans risque : un même pack n\\'est jamais publié deux fois.' }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "5b1c2f0e-8d4a-4c61-9a57-0f3e2d1a0004",
+      "name": "Alerte : service injoignable",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [520, 120]
+    }
+  ],
+  "connections": {
+    "Formulaire de dépôt": {
+      "main": [
+        [
+          { "node": "Service de publication (Railway)", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Service de publication (Railway)": {
+      "main": [
+        [
+          { "node": "Rapport par e-mail", "type": "main", "index": 0 }
+        ],
+        [
+          { "node": "Alerte : service injoignable", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "tags": []
+}
