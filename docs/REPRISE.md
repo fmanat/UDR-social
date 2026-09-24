@@ -86,6 +86,21 @@ qui ne correspondait pas à la clé ; corrigé en recopiant le secret de la mêm
 Restent : brancher n8n (nouveau `PUBLISH_SERVICE_TOKEN` aléatoire), renseigner les autres
 `PFM_ACCOUNT_*`, puis un premier pack réel en draft sur tous les réseaux.
 
+## Première publication réelle : 2026-09-24
+
+Pack `UDR_memoire_territoire_V1`, déposé par `/depot`. Instagram, LinkedIn et X étaient désactivés
+(`"enabled": false`), faute de compte connecté dans Post For Me. Le dépôt en brouillon a donné 4
+brouillons, puis le redépôt en live les a promus, avec les mêmes id, pour 14h25 (heure de Paris).
+
+- Audio des masters à 192 kbit/s : le pack a été refusé. Jean a réexporté les vidéos en 128 kbit/s.
+- YouTube : publié (https://www.youtube.com/watch?v=rC3Lj6t0i5Q). Facebook et Shorts étaient
+  encore `processing` au premier suivi.
+- TikTok : en erreur chez Post For Me. Le PUT d'upload vers TikTok a reçu un 404 avec
+  `content-range 0-0/0`. Jean a publié la vidéo à la main dans l'application TikTok ; le post
+  Post For Me `sp_1WUu3DS03TLDe7HAWiDMY` reste en erreur. **À analyser avant la prochaine
+  campagne** : voir si l'incident est ponctuel, s'il faut connecter TikTok autrement ou retenter.
+- Page `/depot/suivi?pack=<id>` ajoutée pour lire le suivi sans jeton.
+
 ## Étape D : procédure initiale en ligne de commande (pour mémoire)
 
 **Prérequis, côté Jean, dans l'environnement cloud** (sélecteur au-dessus de la zone de
