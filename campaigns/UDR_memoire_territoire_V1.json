@@ -1,0 +1,48 @@
+{
+  "id": "UDR_memoire_territoire_V1",
+  "title": "La mémoire d'un territoire",
+  "created": "2026-09-24",
+  "publish": {
+    "mode": "draft",
+    "schedule": "2026-09-24T19:30:00+02:00",
+    "linkedin_schedule": "2026-09-25T08:30:00+02:00"
+  },
+  "media": {
+    "vertical": "UDR_memoire_territoire_V1_9x16.mp4",
+    "horizontal": "UDR_memoire_territoire_V1_16x9.mp4"
+  },
+  "posts": {
+    "instagram": {
+      "media": "vertical",
+      "text": "Une télévision locale sait raconter la vie d'un territoire.\nSes fêtes, ses matchs, ses marchés, ses visages. Elle devait aussi savoir en accompagner la mémoire.\nC'est ce qu'elle fait, chaque matin, désormais — dans les Vosges avec Vosges Télévision, dans l'Aube avec Canal 32.\nUn dernier regard — les hommages des familles, diffusés chaque matin par la télévision locale.\n🔗 undernierregard.fr (lien en bio)\n.\n.\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "tiktok": {
+      "media": "vertical",
+      "text": "Une télévision locale sait raconter la vie d'un territoire.\nElle devait aussi savoir en accompagner la mémoire.\nC'est ce qu'elle fait, chaque matin, désormais.\nUn dernier regard — les hommages des familles, diffusés par la télévision locale.\nLien en bio.\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "facebook": {
+      "media": "horizontal",
+      "text": "Il y a une chose que seule une télévision locale sait faire : raconter un territoire de l'intérieur. Le marché du samedi, le match de dimanche, la fête du village, les visages qu'on croise depuis quarante ans.\n\nIl manquait un chapitre à ce récit : celui des départs. Depuis le 1er septembre, Vosges Télévision et Canal 32 diffusent chaque matin les hommages des familles de leur département — quelques secondes, un visage, deux dates, les mots des proches.\n\nCe n'est pas un service de plus. C'est la même mission, jusqu'au bout.\n\n👉 undernierregard.fr\n\nEt vous, quel souvenir gardez-vous de votre télévision locale ?"
+    },
+    "linkedin": {
+      "media": "horizontal",
+      "text": "Une télévision locale sait raconter la vie d'un territoire. Elle devait aussi savoir en accompagner la mémoire.\n\nDepuis le 1er septembre, Vosges Télévision et Canal 32 diffusent chaque matin les hommages des familles de leur département, produits par Un dernier regard en partenariat avec les pompes funèbres locales. Rien n'est diffusé sans l'accord des proches ; les photos sont retravaillées, jamais le visage.\n\nChaînes locales, pompes funèbres : pour ouvrir votre territoire, écrivez-moi — jean@undernierregard.fr\n\n#télévisionlocale #médiaslocaux #grandest"
+    },
+    "x": {
+      "media": "horizontal",
+      "text": "Une télévision locale sait raconter la vie d'un territoire. Elle devait aussi savoir en accompagner la mémoire. C'est ce qu'elle fait chaque matin, désormais.\nundernierregard.fr"
+    },
+    "youtube": {
+      "media": "horizontal",
+      "title": "La mémoire d'un territoire — un dernier regard",
+      "text": "Une télévision locale sait raconter la vie d'un territoire. Elle devait aussi savoir en accompagner la mémoire. Depuis le 1er septembre, Vosges Télévision et Canal 32 diffusent chaque matin les hommages des familles.\n\n👉 undernierregard.fr\n\nMusique : [attribution si la licence l'exige]"
+    },
+    "youtube_shorts": {
+      "media": "vertical",
+      "title": "La mémoire d'un territoire — un dernier regard #Shorts",
+      "text": "Une télévision locale sait raconter la vie d'un territoire. Elle devait aussi savoir en accompagner la mémoire.\n\n👉 undernierregard.fr"
+    }
+  },
+  "founder_comment": "Ce projet est né d'un constat simple : la télévision locale sait raconter la vie d'un territoire, elle devait aussi savoir en accompagner la mémoire.",
+  "notes": "Taguer Vosges TV et Canal 32 ; prévenir Canal 32 avant publication."
+}
