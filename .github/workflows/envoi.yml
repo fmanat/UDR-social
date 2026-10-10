@@ -1,0 +1,25 @@
+# Envoi automatique d'un pack de publication Un dernier regard.
+# Claude pousse sur la branche « envoi » un commit contenant pack/ (posts.json + vidéos)
+# ou pack/suivi.txt (identifiant d'un pack à suivre). Ce workflow transmet au service
+# Railway, qui valide, héberge sur Cloudinary et programme chez Post For Me.
+name: Envoi pack
+
+on:
+  push:
+    branches: [envoi]
+
+concurrency:
+  group: envoi
+  cancel-in-progress: false
+
+jobs:
+  envoi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Transmettre au service de publication
+        env:
+          SERVICE_URL: https://udr-social-production.up.railway.app
+          PUBLISH_SERVICE_TOKEN: ${{ secrets.PUBLISH_SERVICE_TOKEN }}
+        run: bash .github/scripts/envoi.sh
