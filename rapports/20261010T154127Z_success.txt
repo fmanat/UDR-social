@@ -1,0 +1,30 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_memoire_territoire_V1
+[UDR publication] UDR_memoire_territoire_V1 — suivi : 3 publié, 1 en erreur
+
+Rapport généré le 2026-10-10T15:41:25+00:00 (UTC)
+
+■ Facebook : PUBLIÉ
+    publié
+    id Post For Me : sp_CApR7YOE6qb2x6UCk9ICP
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1790250970/udr-publish/UDR_memoire_territoire_V1/horizontal.mp4
+    post : https://facebook.com/1123271940877731/videos/873405649089958
+
+■ YouTube : PUBLIÉ
+    publié
+    id Post For Me : sp_4jCZIWXnV2TKCpBVRDFE
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1790250970/udr-publish/UDR_memoire_territoire_V1/horizontal.mp4
+    post : https://www.youtube.com/watch?v=rC3Lj6t0i5Q
+
+■ YouTube Shorts : PUBLIÉ
+    publié
+    id Post For Me : sp_4H5TBJAwLjAA6pW1H5QRz
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1790250972/udr-publish/UDR_memoire_territoire_V1/vertical.mp4
+    post : https://www.youtube.com/watch?v=7p0JsjuAMVY
+
+■ TikTok : EN ERREUR
+    Failed to post to TikTok — {"message": "Request failed with status code 404", "request": {"url": "/upload?upload_id=7689076870549555222&upload_token=b9af094b-f798-e7de-9105-6233ac525bff", "method": "PUT"}, "response": {"data": null, "status": 404, "headers": {"via": "1.1 da78abc509aafffb42eec33ca2dc60d4.cloudfront.net (CloudFront)", "date": "Thu, 24 Sep 2026 12:26:40 GMT", "server": "TLB", "x-cache": "Error from cloudfront", "connection": "keep-alive", "x-tt-logid": "20260924202640CCDA3502F7A48FECB738", "x-amz-cf-id": "Mqps-RAACjezITS73p_guunciiOakLihHIo1qg0RLEdIAzIZiyWVBA==", "content-type": "application/json; charset=utf-8", "x-amz-cf-pop": "FRA60-P4", "content-range": "bytes 0-0/0", "server-timing": "inner; dur=15", "x-tt-trace-id": "00-260924202640CCDA3502F7A48FECB738-7DD9986A989FDC34-00", "content-length": "4",
+    id Post For Me : sp_1WUu3DS03TLDe7HAWiDMY
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1790250972/udr-publish/UDR_memoire_territoire_V1/vertical.mp4
+    réponse de l'API : Failed to post to TikTok
+
