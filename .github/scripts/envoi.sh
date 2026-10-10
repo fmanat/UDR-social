@@ -5,7 +5,9 @@ cd pack
 if [ -z "${PUBLISH_SERVICE_TOKEN:-}" ]; then
   echo "::error::Secret PUBLISH_SERVICE_TOKEN absent dans GitHub (Settings > Secrets and variables > Actions)"; exit 2
 fi
-auth=(-H "Authorization: Bearer ${PUBLISH_SERVICE_TOKEN}")
+tok=$(printf %s "$PUBLISH_SERVICE_TOKEN" | tr -d "[:space:]\"'")
+echo "Clé reçue : ${#tok} caractères"
+auth=(-H "Authorization: Bearer ${tok}")
 
 if [ -f suivi.txt ]; then
   id=$(tr -d '[:space:]' < suivi.txt)
