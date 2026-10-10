@@ -34,6 +34,10 @@ def test_draft_creates_one_draft_per_network_with_texts_unchanged(make_pack, set
             assert config["privacy_status"] == "public"
     by_key = {b["external_id"].split(":")[1]: b for _, _, b, _ in creates}
     assert by_key["tiktok"]["account_configurations"][0]["configuration"] == {"privacy_status": "public"}
+    if "facebook" in by_key:
+        assert by_key["facebook"]["account_configurations"][0]["configuration"] == {"placement": "timeline"}
+    if "instagram" in by_key:
+        assert by_key["instagram"]["account_configurations"][0]["configuration"] == {"placement": "reels"}
     assert by_key["linkedin"]["scheduled_at"] == "2030-01-02T08:30:00+01:00"
     assert by_key["facebook"]["scheduled_at"] == "2030-01-01T19:30:00+01:00"
     # une vidéo par format, pas plus

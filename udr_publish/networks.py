@@ -47,4 +47,10 @@ def account_configuration(network: Network, post: dict) -> dict:
         }
     if network.platform == "tiktok":
         return {"privacy_status": "public"}
+    if network.platform == "facebook":
+        # Vidéo 16:9 publiée dans le fil (timeline). Sans placement explicite,
+        # Facebook la traitait en Reel et la repartageait en Story recadrée en 9:16.
+        return {"placement": "timeline"}
+    if network.platform == "instagram":
+        return {"placement": "reels"}
     return {}
