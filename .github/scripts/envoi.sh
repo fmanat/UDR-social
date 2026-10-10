@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+[ -d pack ] || { echo "Aucun pack dans ce commit : rien à envoyer."; exit 0; }
 cd pack
 if [ -z "${PUBLISH_SERVICE_TOKEN:-}" ]; then
   echo "::error::Secret PUBLISH_SERVICE_TOKEN absent dans GitHub (Settings > Secrets and variables > Actions)"; exit 2

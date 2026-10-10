@@ -12,6 +12,9 @@ concurrency:
   group: envoi
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   envoi:
     runs-on: ubuntu-latest
@@ -22,4 +25,14 @@ jobs:
         env:
           SERVICE_URL: https://udr-social-production.up.railway.app
           PUBLISH_SERVICE_TOKEN: ${{ secrets.PUBLISH_SERVICE_TOKEN }}
-        run: bash .github/scripts/envoi.sh
+        run: bash .github/scripts/envoi.sh 2>&1 | tee rapport.txt; exit ${PIPESTATUS[0]}
+      - name: Déposer le rapport sur la branche
+        if: always() && hashFiles('pack/**') != ''
+        run: |
+          git config user.name "envoi-udr"; git config user.email "envoi-udr@users.noreply.github.com"
+          mkdir -p rapports
+          name="rapports/$(date -u +%Y%m%dT%H%M%SZ)_${{ job.status }}.txt"
+          sed 's/Bearer [A-Za-z0-9._-]*/Bearer ***/g' rapport.txt > "$name" || true
+          git rm -rq --cached pack || true
+          git add "$name"
+          git commit -qm "Rapport d'envoi [skip ci]" && git push -q origin HEAD:envoi
