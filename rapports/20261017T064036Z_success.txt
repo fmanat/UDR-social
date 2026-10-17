@@ -1,0 +1,49 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_jourpourjour_D_Darrieux_ivoire_V1 (live, 2026-10-17T10:00:00+02:00)
+HTTP 200
+[UDR publication] UDR_jourpourjour_D_Darrieux_ivoire_V1 — live — dépôt : 6 programmé
+
+Pack : Jour pour jour : Danielle Darrieux, 17 octobre 2017 (UDR_jourpourjour_D_Darrieux_ivoire_V1)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-10-17T06:40:24+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_N864icTescZ2QXeTbGaa
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_DOOdAD52pEckXekK0rurE
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_IVNh4qoy6EHSZ1FKezrfK
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_jD2Gqb5ZltzhgSowvIrL
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_lNSV41qPc5qJrSARmlxri
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4
+
+■ X : PROGRAMMÉ
+    programmé pour 2026-10-17T08:00:00+00:00
+    date : 2026-10-17T08:00:00+00:00
+    id Post For Me : sp_pUpb49gGQcbZAdlNQElL
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-17T06:40:24+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_jourpourjour_D_Darrieux_ivoire_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4"},"vertical":{"file":"UDR_jourpourjour_D_Darrieux_ivoire_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Facebook","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"facebook","pfm_post_id":"sp_N864icTescZ2QXeTbGaa","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"instagram","pfm_post_id":"sp_DOOdAD52pEckXekK0rurE","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"youtube","pfm_post_id":"sp_IVNh4qoy6EHSZ1FKezrfK","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube Shorts","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"youtube_shorts","pfm_post_id":"sp_jD2Gqb5ZltzhgSowvIrL","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"TikTok","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"tiktok","pfm_post_id":"sp_lNSV41qPc5qJrSARmlxri","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"X","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-17T08:00:00+00:00","network":"x","pfm_post_id":"sp_pUpb49gGQcbZAdlNQElL","scheduled_at":"2026-10-17T08:00:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_jourpourjour_D_Darrieux_ivoire_V1","refused":false,"report_subject":"[UDR publication] UDR_jourpourjour_D_Darrieux_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 6 programm\u00e9","report_text":"[UDR publication] UDR_jourpourjour_D_Darrieux_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 6 programm\u00e9\n\nPack : Jour pour jour : Danielle Darrieux, 17 octobre 2017 (UDR_jourpourjour_D_Darrieux_ivoire_V1)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-17T06:40:24+00:00 (UTC)\n\n\u25a0 Facebook : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_N864icTescZ2QXeTbGaa\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_DOOdAD52pEckXekK0rurE\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_IVNh4qoy6EHSZ1FKezrfK\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4\n\n\u25a0 YouTube Shorts : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_jD2Gqb5ZltzhgSowvIrL\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4\n\n\u25a0 TikTok : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_lNSV41qPc5qJrSARmlxri\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219227/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/vertical.mp4\n\n\u25a0 X : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-17T08:00:00+00:00\n    date : 2026-10-17T08:00:00+00:00\n    id Post For Me : sp_pUpb49gGQcbZAdlNQElL\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792219225/udr-publish/UDR_jourpourjour_D_Darrieux_ivoire_V1/horizontal.mp4\n","skipped":[],"summary":{"programm\u00e9":6},"title":"Jour pour jour : Danielle Darrieux, 17 octobre 2017","warnings":[]}
+
+RESULTAT_JSON_FIN
