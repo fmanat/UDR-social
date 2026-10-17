@@ -1,0 +1,30 @@
+{
+  "id": "UDR_toussaint_vosges_reseaux_V1",
+  "title": "Hommage de Toussaint — Vosges TV",
+  "publish": {
+    "mode": "live",
+    "schedule": "2026-10-17T18:00:00+02:00",
+    "linkedin_schedule": "2026-10-17T18:00:00+02:00"
+  },
+  "media": {
+    "vertical": "UDR_toussaint_vosges_reseaux_V1_9x16.mp4",
+    "horizontal": "UDR_toussaint_vosges_reseaux_V1_16x9.mp4"
+  },
+  "posts": {
+    "facebook": {
+      "media": "horizontal",
+      "text": "Le 1er novembre, toutes les Vosges se souviennent. Dans chaque village, une famille pense à quelqu'un qui est parti.\n\nDu 25 octobre au 1er novembre, Vosges TV consacre une édition spéciale aux personnes disparues cette année : l'Hommage de Toussaint, une photo et quelques mots, diffusés chaque jour à l'antenne.\n\nPour y faire figurer un proche, rendez-vous sur undernierregard.fr\n\nQui aimeriez-vous saluer cette Toussaint ?"
+    },
+    "x": {
+      "media": "horizontal",
+      "text": "Du 25 octobre au 1er novembre, Vosges TV consacre une édition spéciale à ceux qui nous ont quittés cette année : l'Hommage de Toussaint. Pour un proche disparu : undernierregard.fr"
+    },
+    "youtube": {
+      "media": "horizontal",
+      "title": "Hommage de Toussaint sur Vosges TV — un dernier regard",
+      "text": "Du 25 octobre au 1er novembre, Vosges TV consacre une édition spéciale aux personnes disparues cette année. Pour un proche disparu : 👉 undernierregard.fr"
+    }
+  },
+  "founder_comment": "",
+  "notes": "Toussaint, version réseaux, renvoi vers le site."
+}
