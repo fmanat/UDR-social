@@ -1,0 +1,107 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_toussaint_paulette_reseaux_V1
+[UDR publication] UDR_toussaint_paulette_reseaux_V1 — suivi : 5 publié, 2 en erreur
+
+Rapport généré le 2026-10-18T16:42:27+00:00 (UTC)
+
+■ Facebook : PUBLIÉ
+    publié
+    id Post For Me : sp_ekVEiXOb4kYuE1COaKpW8
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+    post : https://facebook.com/1123271940877731/videos/3049258248739080
+
+■ Instagram : PUBLIÉ
+    publié
+    id Post For Me : sp_w7X1jQjUDCOWgMJ7OAW3i
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+    post : https://www.instagram.com/reel/DepHkU4jwJk/
+
+■ YouTube : EN ERREUR
+    Failed to post to Youtube: Failed to start YouTube resumable upload session: 429 Too Many Requests. {
+  "error": {
+    "code": 429,
+    "message": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:823315471809'.",
+    "errors": [
+      {
+        "message": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:823315471809'.",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "RATE_LIMIT_EXCEEDED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "quota_metric": "youtube.googleapis.com/video_insert",
+          "service": "youtube.googleapis.com",
+          "quota_limit_value": "4068",
+          "quota_limit": "defaultVideoInsertPerDayPerProject",
+          "quota_unit": "1/d/{project}",
+          "consumer": "projects/823315471809",
+          "quota_location": "global"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Request a higher quota limit.",
+            "url": "https://cloud.google.com/docs/quotas/help/request_increase"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+    id Post For Me : sp_8XksY0xhRTs1otWlEa5AW
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+    réponse de l'API : Failed to post to Youtube: Failed to start YouTube resumable upload session: 429 Too Many Requests. {
+  "error": {
+    "code": 429,
+    "message": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:823315471809'.",
+    "errors": [
+      {
+        "message": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:823315471809'.",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "RATE_LIMIT_EXCEEDED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "quota_metric": "youtube.googleapis.com/video_insert",
+          "service": "youtube.googleapis.com",
+          "quota_limit_value": "4068",
+          "quota_limit": "d
+
+■ YouTube Shorts : EN ERREUR
+    suivi impossible : HTTP 429 : {'code': 'err:frontline:client:rate_limited', 'message': 'Rate limit exceeded. Please try again later.'}
+    id Post For Me : sp_CifZQO5A6MVPVQITq2DS
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+
+■ TikTok : PUBLIÉ
+    publié (lien du profil TikTok : Post For Me ne renvoie pas le lien de la vidéo)
+    id Post For Me : sp_vtRerHDXI7SownKSxJh6
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+    post : https://www.tiktok.com/@un.dernier.regard
+
+■ LinkedIn : PUBLIÉ
+    publié
+    id Post For Me : sp_FNLsQ8EB5xudB0PRFGM3
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+    post : https://www.linkedin.com/feed/update/urn:li:ugcPost:7517623224688553985
+
+■ X : PUBLIÉ
+    publié
+    id Post For Me : sp_UFTgsMdbcr4Sio5UfG6
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+    post : https://twitter.com/user/status/2111857561972441187
+
