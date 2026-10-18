@@ -1,0 +1,55 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_toussaint_paulette_reseaux_V1 (live, 2026-10-18T18:30:00+02:00)
+HTTP 200
+[UDR publication] UDR_toussaint_paulette_reseaux_V1 — live — dépôt : 7 programmé
+
+Pack : Hommage de Toussaint — exemple Paulette (UDR_toussaint_paulette_reseaux_V1)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-10-18T16:01:37+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_ekVEiXOb4kYuE1COaKpW8
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_w7X1jQjUDCOWgMJ7OAW3i
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_8XksY0xhRTs1otWlEa5AW
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_CifZQO5A6MVPVQITq2DS
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_vtRerHDXI7SownKSxJh6
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4
+
+■ LinkedIn : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_FNLsQ8EB5xudB0PRFGM3
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+
+■ X : PROGRAMMÉ
+    programmé pour 2026-10-18T16:30:00+00:00
+    date : 2026-10-18T16:30:00+00:00
+    id Post For Me : sp_UFTgsMdbcr4Sio5UfG6
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-18T16:01:37+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_toussaint_paulette_reseaux_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4"},"vertical":{"file":"UDR_toussaint_paulette_reseaux_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Facebook","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"facebook","pfm_post_id":"sp_ekVEiXOb4kYuE1COaKpW8","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"instagram","pfm_post_id":"sp_w7X1jQjUDCOWgMJ7OAW3i","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"youtube","pfm_post_id":"sp_8XksY0xhRTs1otWlEa5AW","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube Shorts","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"youtube_shorts","pfm_post_id":"sp_CifZQO5A6MVPVQITq2DS","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"TikTok","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"tiktok","pfm_post_id":"sp_vtRerHDXI7SownKSxJh6","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"LinkedIn","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"linkedin","pfm_post_id":"sp_FNLsQ8EB5xudB0PRFGM3","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"X","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-18T16:30:00+00:00","network":"x","pfm_post_id":"sp_UFTgsMdbcr4Sio5UfG6","scheduled_at":"2026-10-18T16:30:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_toussaint_paulette_reseaux_V1","refused":false,"report_subject":"[UDR publication] UDR_toussaint_paulette_reseaux_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 7 programm\u00e9","report_text":"[UDR publication] UDR_toussaint_paulette_reseaux_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 7 programm\u00e9\n\nPack : Hommage de Toussaint \u2014 exemple Paulette (UDR_toussaint_paulette_reseaux_V1)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-18T16:01:37+00:00 (UTC)\n\n\u25a0 Facebook : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_ekVEiXOb4kYuE1COaKpW8\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_w7X1jQjUDCOWgMJ7OAW3i\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_8XksY0xhRTs1otWlEa5AW\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4\n\n\u25a0 YouTube Shorts : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_CifZQO5A6MVPVQITq2DS\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4\n\n\u25a0 TikTok : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_vtRerHDXI7SownKSxJh6\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339300/udr-publish/UDR_toussaint_paulette_reseaux_V1/vertical.mp4\n\n\u25a0 LinkedIn : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_FNLsQ8EB5xudB0PRFGM3\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4\n\n\u25a0 X : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-18T16:30:00+00:00\n    date : 2026-10-18T16:30:00+00:00\n    id Post For Me : sp_UFTgsMdbcr4Sio5UfG6\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792339298/udr-publish/UDR_toussaint_paulette_reseaux_V1/horizontal.mp4\n","skipped":[],"summary":{"programm\u00e9":7},"title":"Hommage de Toussaint \u2014 exemple Paulette","warnings":[]}
+
+RESULTAT_JSON_FIN
