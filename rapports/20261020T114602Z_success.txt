@@ -1,0 +1,49 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_toussaint_site_V2 (live, 2026-10-20T14:00:00+02:00)
+HTTP 200
+[UDR publication] UDR_toussaint_site_V2 — live — dépôt : 6 programmé
+
+Pack : Hommage de Toussaint — créez l'hommage sur le site (UDR_toussaint_site_V2)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-10-20T11:45:53+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_NIZdH7NHl0rp9n4m8ndr
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_bgGqdsUN8ZjQtbla9iYAu
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_818XyqLE5c9AGM2O0njG
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_C9PRL98x6kD35GzoipHnZ
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_Wgg55dils68qVZTY88EZY
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4
+
+■ X : PROGRAMMÉ
+    programmé pour 2026-10-20T12:00:00+00:00
+    date : 2026-10-20T12:00:00+00:00
+    id Post For Me : sp_Sk298UGKb5CBlpYsqdKpX
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-20T11:45:53+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_toussaint_site_V2_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4"},"vertical":{"file":"UDR_toussaint_site_V2_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Facebook","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"facebook","pfm_post_id":"sp_NIZdH7NHl0rp9n4m8ndr","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"instagram","pfm_post_id":"sp_bgGqdsUN8ZjQtbla9iYAu","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"youtube","pfm_post_id":"sp_818XyqLE5c9AGM2O0njG","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube Shorts","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"youtube_shorts","pfm_post_id":"sp_C9PRL98x6kD35GzoipHnZ","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"TikTok","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"tiktok","pfm_post_id":"sp_Wgg55dils68qVZTY88EZY","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"X","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-20T12:00:00+00:00","network":"x","pfm_post_id":"sp_Sk298UGKb5CBlpYsqdKpX","scheduled_at":"2026-10-20T12:00:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_toussaint_site_V2","refused":false,"report_subject":"[UDR publication] UDR_toussaint_site_V2 \u2014 live \u2014 d\u00e9p\u00f4t : 6 programm\u00e9","report_text":"[UDR publication] UDR_toussaint_site_V2 \u2014 live \u2014 d\u00e9p\u00f4t : 6 programm\u00e9\n\nPack : Hommage de Toussaint \u2014 cr\u00e9ez l'hommage sur le site (UDR_toussaint_site_V2)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-20T11:45:53+00:00 (UTC)\n\n\u25a0 Facebook : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_NIZdH7NHl0rp9n4m8ndr\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_bgGqdsUN8ZjQtbla9iYAu\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_818XyqLE5c9AGM2O0njG\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4\n\n\u25a0 YouTube Shorts : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_C9PRL98x6kD35GzoipHnZ\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4\n\n\u25a0 TikTok : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_Wgg55dils68qVZTY88EZY\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496755/udr-publish/UDR_toussaint_site_V2/vertical.mp4\n\n\u25a0 X : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-20T12:00:00+00:00\n    date : 2026-10-20T12:00:00+00:00\n    id Post For Me : sp_Sk298UGKb5CBlpYsqdKpX\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792496754/udr-publish/UDR_toussaint_site_V2/horizontal.mp4\n","skipped":[],"summary":{"programm\u00e9":6},"title":"Hommage de Toussaint \u2014 cr\u00e9ez l'hommage sur le site","warnings":[]}
+
+RESULTAT_JSON_FIN
