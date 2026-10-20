@@ -1,0 +1,43 @@
+{
+  "id": "UDR_toussaint_site_V1",
+  "title": "Hommage de Toussaint — créez l'hommage sur le site",
+  "publish": {
+    "mode": "live",
+    "schedule": "2026-10-20T13:10:00+02:00",
+    "linkedin_schedule": "2026-10-20T13:10:00+02:00"
+  },
+  "media": {
+    "vertical": "UDR_toussaint_site_V1_9x16.mp4",
+    "horizontal": "UDR_toussaint_site_V1_16x9.mp4"
+  },
+  "posts": {
+    "facebook": {
+      "media": "horizontal",
+      "text": "Pour beaucoup de familles, ce sera la première Toussaint sans eux.\n\nDu 25 octobre au 1er novembre, Vosges TV et Canal 32 consacrent une édition spéciale aux personnes disparues cette année : l'Hommage de Toussaint, une photo et quelques mots, diffusés chaque jour à l'antenne.\n\nVous pouvez désormais créer l'hommage de votre proche vous-même, en quelques minutes, sur notre site.\n\n👉 undernierregard.fr\n\nÀ qui penserez-vous cette Toussaint ?"
+    },
+    "instagram": {
+      "media": "vertical",
+      "text": "La première Toussaint sans eux.\nDu 25 octobre au 1er novembre, Vosges TV et Canal 32 leur consacrent une édition spéciale : l'Hommage de Toussaint.\nCréez l'hommage de votre proche en quelques minutes sur notre site.\n🔗 undernierregard.fr (lien en bio)\n.\n.\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "tiktok": {
+      "media": "vertical",
+      "text": "La première Toussaint sans eux.\nUne photo, quelques mots, à la télévision locale.\nCréez l'hommage de votre proche sur notre site.\nLien en bio.\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "x": {
+      "media": "horizontal",
+      "text": "Du 25 octobre au 1er novembre, Vosges TV et Canal 32 consacrent une édition spéciale aux disparus de l'année : l'Hommage de Toussaint. Créez celui de votre proche en quelques minutes.\nundernierregard.fr"
+    },
+    "youtube": {
+      "media": "horizontal",
+      "title": "Hommage de Toussaint : créez l'hommage de votre proche — un dernier regard",
+      "text": "Du 25 octobre au 1er novembre, Vosges TV et Canal 32 consacrent une édition spéciale aux personnes disparues cette année. Créez l'hommage de votre proche en quelques minutes sur notre site.\n\n👉 undernierregard.fr"
+    },
+    "youtube_shorts": {
+      "media": "vertical",
+      "title": "Hommage de Toussaint — un dernier regard #Shorts",
+      "text": "La première Toussaint sans eux. Créez l'hommage de votre proche sur notre site.\n\n👉 undernierregard.fr"
+    }
+  },
+  "founder_comment": "",
+  "notes": "Toussaint, fin sur animation du site."
+}
