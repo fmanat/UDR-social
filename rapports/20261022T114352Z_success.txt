@@ -1,0 +1,25 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_test_repere_20261022 (draft, 2026-10-23T09:30:00+02:00)
+HTTP 200
+[UDR publication] UDR_test_repere_20261022 — draft — dépôt : 2 brouillon
+
+Pack : Essai Repère Funéraire (brouillon) (UDR_test_repere_20261022)
+Mode : BROUILLON — rien n'est publié sur les réseaux
+Rapport généré le 2026-10-22T11:43:46+00:00 (UTC)
+
+■ Repère Funéraire (fil) : BROUILLON
+    brouillon créé chez Post For Me — rien n'est envoyé au réseau
+    date : 2026-10-23T07:30:00+00:00
+    id Post For Me : sp_5zYVUQStr0TC9AjCmMvUP
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669427/udr-publish/UDR_test_repere_20261022/horizontal.mp4
+
+■ Repère Funéraire (Reel) : BROUILLON
+    brouillon créé chez Post For Me — rien n'est envoyé au réseau
+    date : 2026-10-23T07:30:00+00:00
+    id Post For Me : sp_yGalNvkzTsKJOgchJ9mlA
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669429/udr-publish/UDR_test_repere_20261022/vertical.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-22T11:43:46+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_jourpourjour_L_Ventura_ivoire_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669427/udr-publish/UDR_test_repere_20261022/horizontal.mp4"},"vertical":{"file":"UDR_jourpourjour_L_Ventura_ivoire_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669429/udr-publish/UDR_test_repere_20261022/vertical.mp4"}},"mode":"draft","networks":[{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (fil)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669427/udr-publish/UDR_test_repere_20261022/horizontal.mp4"},"message":"brouillon cr\u00e9\u00e9 chez Post For Me \u2014 rien n'est envoy\u00e9 au r\u00e9seau","network":"facebook_repere","pfm_post_id":"sp_5zYVUQStr0TC9AjCmMvUP","scheduled_at":"2026-10-23T07:30:00+00:00","status":"brouillon"},{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (Reel)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669429/udr-publish/UDR_test_repere_20261022/vertical.mp4"},"message":"brouillon cr\u00e9\u00e9 chez Post For Me \u2014 rien n'est envoy\u00e9 au r\u00e9seau","network":"facebook_repere_reel","pfm_post_id":"sp_yGalNvkzTsKJOgchJ9mlA","scheduled_at":"2026-10-23T07:30:00+00:00","status":"brouillon"}],"ok":true,"pack_id":"UDR_test_repere_20261022","refused":false,"report_subject":"[UDR publication] UDR_test_repere_20261022 \u2014 draft \u2014 d\u00e9p\u00f4t : 2 brouillon","report_text":"[UDR publication] UDR_test_repere_20261022 \u2014 draft \u2014 d\u00e9p\u00f4t : 2 brouillon\n\nPack : Essai Rep\u00e8re Fun\u00e9raire (brouillon) (UDR_test_repere_20261022)\nMode : BROUILLON \u2014 rien n'est publi\u00e9 sur les r\u00e9seaux\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-22T11:43:46+00:00 (UTC)\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (fil) : BROUILLON\n    brouillon cr\u00e9\u00e9 chez Post For Me \u2014 rien n'est envoy\u00e9 au r\u00e9seau\n    date : 2026-10-23T07:30:00+00:00\n    id Post For Me : sp_5zYVUQStr0TC9AjCmMvUP\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669427/udr-publish/UDR_test_repere_20261022/horizontal.mp4\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (Reel) : BROUILLON\n    brouillon cr\u00e9\u00e9 chez Post For Me \u2014 rien n'est envoy\u00e9 au r\u00e9seau\n    date : 2026-10-23T07:30:00+00:00\n    id Post For Me : sp_yGalNvkzTsKJOgchJ9mlA\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1792669429/udr-publish/UDR_test_repere_20261022/vertical.mp4\n","skipped":[],"summary":{"brouillon":2},"title":"Essai Rep\u00e8re Fun\u00e9raire (brouillon)","warnings":[]}
+
+RESULTAT_JSON_FIN
