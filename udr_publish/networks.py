@@ -18,6 +18,12 @@ class Network:
     platform: str       # plateforme Post For Me, et compte PFM_ACCOUNT_<PLATFORM>
     needs_title: bool = False
     supported: bool = True
+    account: str = ""   # clé du compte dans ACCOUNT_ENV ; par défaut la plateforme
+    placement: str = "" # placement Facebook/Instagram imposé (timeline, reels)
+
+    @property
+    def account_key(self) -> str:
+        return self.account or self.platform
 
 
 NETWORKS: tuple[Network, ...] = (
@@ -28,6 +34,11 @@ NETWORKS: tuple[Network, ...] = (
     Network("tiktok", "TikTok", "tiktok"),
     Network("linkedin", "LinkedIn", "linkedin"),
     Network("x", "X", "x"),
+    # Page Facebook Repère Funéraire : même vidéo, deux formats.
+    Network("facebook_repere", "Repère Funéraire (fil)", "facebook", account="facebook_repere",
+            placement="timeline"),
+    Network("facebook_repere_reel", "Repère Funéraire (Reel)", "facebook", account="facebook_repere",
+            placement="reels"),
 )
 
 BY_KEY = {n.key: n for n in NETWORKS}
@@ -47,6 +58,8 @@ def account_configuration(network: Network, post: dict) -> dict:
         }
     if network.platform == "tiktok":
         return {"privacy_status": "public"}
+    if network.placement:
+        return {"placement": network.placement}
     if network.platform == "facebook":
         # Vidéo 16:9 publiée dans le fil (timeline). Sans placement explicite,
         # Facebook la traitait en Reel et la repartageait en Story recadrée en 9:16.

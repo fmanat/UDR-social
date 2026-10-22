@@ -91,6 +91,7 @@ ACCOUNT_ENV = {
     "tiktok": "PFM_ACCOUNT_TIKTOK",
     "linkedin": "PFM_ACCOUNT_LINKEDIN",
     "x": "PFM_ACCOUNT_X",
+    "facebook_repere": "PFM_ACCOUNT_FACEBOOK_REPERE",
 }
 
 

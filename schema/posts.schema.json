@@ -54,7 +54,9 @@
         "youtube_shorts": { "$ref": "#/$defs/titled_post" },
         "tiktok": { "$ref": "#/$defs/post" },
         "linkedin": { "$ref": "#/$defs/post" },
-        "x": { "$ref": "#/$defs/post" }
+        "x": { "$ref": "#/$defs/post" },
+        "facebook_repere": { "$ref": "#/$defs/post" },
+        "facebook_repere_reel": { "$ref": "#/$defs/post" }
       }
     },
     "founder_comment": {

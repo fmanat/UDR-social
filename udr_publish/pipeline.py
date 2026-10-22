@@ -99,7 +99,7 @@ class Publisher:
         rep = R.new_report(pack, validation.warnings, dry_run)
         if dry_run:
             for plan in pack.plans:
-                account = self.settings.pfm_accounts.get(plan.network.platform) or "<compte non configuré>"
+                account = self.settings.pfm_accounts.get(plan.network.account_key) or "<compte non configuré>"
                 payload = build_payload(pack, plan, account, f"<url Cloudinary de la vidéo {plan.media_slot}>")
                 R.add_network(rep, plan.network, R.SIMULATION, "rien n'a été envoyé", payload=payload,
                               scheduled_at=payload.get("scheduled_at"))
@@ -115,8 +115,8 @@ class Publisher:
             todo: list[NetworkPlan] = []
             for plan in pack.plans:
                 known = state.get(plan.network.key)
-                if not self.settings.pfm_accounts.get(plan.network.platform):
-                    var = f"PFM_ACCOUNT_{plan.network.platform.upper()}"
+                if not self.settings.pfm_accounts.get(plan.network.account_key):
+                    var = f"PFM_ACCOUNT_{plan.network.account_key.upper()}"
                     R.add_network(rep, plan.network, R.ERREUR, f"compte {plan.network.label} non configuré ({var})")
                     self.journal.append(pack.pack_id, "error", network=plan.network.key, stage="config",
                                         message=f"{var} absent")
@@ -185,7 +185,7 @@ class Publisher:
     def _publish_network(self, rep: dict, pack: ValidatedPack, plan: NetworkPlan, known: dict | None,
                          media_url: str | None, media_error: str | None) -> None:
         network = plan.network
-        account_id = self.settings.pfm_accounts[network.platform]
+        account_id = self.settings.pfm_accounts[network.account_key]
         if not media_url:
             R.add_network(rep, network, R.ERREUR, media_error or "vidéo indisponible")
             return
