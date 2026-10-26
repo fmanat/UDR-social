@@ -1,0 +1,67 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_jourpourjour_J_Demy_ivoire_V1 (live, 2026-10-27T09:00:00+01:00)
+HTTP 200
+[UDR publication] UDR_jourpourjour_J_Demy_ivoire_V1 — live — dépôt : 9 programmé
+
+Pack : Jour pour jour : Jacques Demy, 27 octobre 1990 (UDR_jourpourjour_J_Demy_ivoire_V1)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-10-26T08:13:18+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_ffkcd8d0cMT7pjrkKr
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_E7JQA1Zzs6WIr4IITLH8
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_ytMjsY2gP9vUvBa9az
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_QMWhopkPo4rDb9hpwYEnq
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_bE1h0p2fBMixCQi6mjOh
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4
+
+■ LinkedIn : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_6yqUirUEasJJ4gc9snDDK
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4
+
+■ X : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_m2QkWAa90B26vOzwcLSP
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4
+
+■ Repère Funéraire (fil) : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_UclSZgburyqHU9G2j611g
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4
+
+■ Repère Funéraire (Reel) : PROGRAMMÉ
+    programmé pour 2026-10-27T08:00:00+00:00
+    date : 2026-10-27T08:00:00+00:00
+    id Post For Me : sp_4pQYdSQR3LVFFYQcTtvl
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-26T08:13:18+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_jourpourjour_J_Demy_ivoire_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"vertical":{"file":"UDR_jourpourjour_J_Demy_ivoire_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Facebook","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"facebook","pfm_post_id":"sp_ffkcd8d0cMT7pjrkKr","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"instagram","pfm_post_id":"sp_E7JQA1Zzs6WIr4IITLH8","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"youtube","pfm_post_id":"sp_ytMjsY2gP9vUvBa9az","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube Shorts","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"youtube_shorts","pfm_post_id":"sp_QMWhopkPo4rDb9hpwYEnq","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"TikTok","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"tiktok","pfm_post_id":"sp_bE1h0p2fBMixCQi6mjOh","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"LinkedIn","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"linkedin","pfm_post_id":"sp_6yqUirUEasJJ4gc9snDDK","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"X","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"x","pfm_post_id":"sp_m2QkWAa90B26vOzwcLSP","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (fil)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"facebook_repere","pfm_post_id":"sp_UclSZgburyqHU9G2j611g","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (Reel)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-27T08:00:00+00:00","network":"facebook_repere_reel","pfm_post_id":"sp_4pQYdSQR3LVFFYQcTtvl","scheduled_at":"2026-10-27T08:00:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_jourpourjour_J_Demy_ivoire_V1","refused":false,"report_subject":"[UDR publication] UDR_jourpourjour_J_Demy_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 9 programm\u00e9","report_text":"[UDR publication] UDR_jourpourjour_J_Demy_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 9 programm\u00e9\n\nPack : Jour pour jour : Jacques Demy, 27 octobre 1990 (UDR_jourpourjour_J_Demy_ivoire_V1)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-26T08:13:18+00:00 (UTC)\n\n\u25a0 Facebook : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_ffkcd8d0cMT7pjrkKr\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_E7JQA1Zzs6WIr4IITLH8\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_ytMjsY2gP9vUvBa9az\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4\n\n\u25a0 YouTube Shorts : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_QMWhopkPo4rDb9hpwYEnq\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4\n\n\u25a0 TikTok : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_bE1h0p2fBMixCQi6mjOh\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4\n\n\u25a0 LinkedIn : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_6yqUirUEasJJ4gc9snDDK\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4\n\n\u25a0 X : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_m2QkWAa90B26vOzwcLSP\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (fil) : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_UclSZgburyqHU9G2j611g\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002399/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/horizontal.mp4\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (Reel) : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-27T08:00:00+00:00\n    date : 2026-10-27T08:00:00+00:00\n    id Post For Me : sp_4pQYdSQR3LVFFYQcTtvl\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793002401/udr-publish/UDR_jourpourjour_J_Demy_ivoire_V1/vertical.mp4\n","skipped":[],"summary":{"programm\u00e9":9},"title":"Jour pour jour : Jacques Demy, 27 octobre 1990","warnings":[]}
+
+RESULTAT_JSON_FIN
