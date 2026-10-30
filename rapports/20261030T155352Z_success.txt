@@ -1,0 +1,67 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_jourpourjour_Aimable_ivoire_V1 (live, 2026-10-31T09:00:00+01:00)
+HTTP 200
+[UDR publication] UDR_jourpourjour_Aimable_ivoire_V1 — live — dépôt : 9 programmé
+
+Pack : Jour pour jour : Aimable, 31 octobre 1997 (UDR_jourpourjour_Aimable_ivoire_V1)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-10-30T15:53:42+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_o793TPzB4CAjyqd85cLTL
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_XRM7dUEQqElbWXBeb0OZ
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_UA9UlLK6rBjbSCj5ovPWp
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_H5QjyCuF3e6DNfCMFE2x
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_uTpoJuIbSdJgeuqbNF
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4
+
+■ LinkedIn : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_HtF6xTYCwXoblH9pob
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4
+
+■ X : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_ANQRYKXBRMZ4yLi7rNT1
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4
+
+■ Repère Funéraire (fil) : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_p3IexnOBWJJ7OyDj9OGDn
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4
+
+■ Repère Funéraire (Reel) : PROGRAMMÉ
+    programmé pour 2026-10-31T08:00:00+00:00
+    date : 2026-10-31T08:00:00+00:00
+    id Post For Me : sp_xuXussadck7g0ObCdNU0
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-10-30T15:53:42+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_jourpourjour_Aimable_ivoire_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"vertical":{"file":"UDR_jourpourjour_Aimable_ivoire_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Facebook","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"facebook","pfm_post_id":"sp_o793TPzB4CAjyqd85cLTL","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"instagram","pfm_post_id":"sp_XRM7dUEQqElbWXBeb0OZ","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"youtube","pfm_post_id":"sp_UA9UlLK6rBjbSCj5ovPWp","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"YouTube Shorts","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"youtube_shorts","pfm_post_id":"sp_H5QjyCuF3e6DNfCMFE2x","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"TikTok","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"tiktok","pfm_post_id":"sp_uTpoJuIbSdJgeuqbNF","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"LinkedIn","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"linkedin","pfm_post_id":"sp_HtF6xTYCwXoblH9pob","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"X","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"x","pfm_post_id":"sp_ANQRYKXBRMZ4yLi7rNT1","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (fil)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"facebook_repere","pfm_post_id":"sp_p3IexnOBWJJ7OyDj9OGDn","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"},{"api_error":"","label":"Rep\u00e8re Fun\u00e9raire (Reel)","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4"},"message":"programm\u00e9 pour 2026-10-31T08:00:00+00:00","network":"facebook_repere_reel","pfm_post_id":"sp_xuXussadck7g0ObCdNU0","scheduled_at":"2026-10-31T08:00:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_jourpourjour_Aimable_ivoire_V1","refused":false,"report_subject":"[UDR publication] UDR_jourpourjour_Aimable_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 9 programm\u00e9","report_text":"[UDR publication] UDR_jourpourjour_Aimable_ivoire_V1 \u2014 live \u2014 d\u00e9p\u00f4t : 9 programm\u00e9\n\nPack : Jour pour jour : Aimable, 31 octobre 1997 (UDR_jourpourjour_Aimable_ivoire_V1)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-10-30T15:53:42+00:00 (UTC)\n\n\u25a0 Facebook : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_o793TPzB4CAjyqd85cLTL\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_XRM7dUEQqElbWXBeb0OZ\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_UA9UlLK6rBjbSCj5ovPWp\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4\n\n\u25a0 YouTube Shorts : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_H5QjyCuF3e6DNfCMFE2x\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4\n\n\u25a0 TikTok : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_uTpoJuIbSdJgeuqbNF\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4\n\n\u25a0 LinkedIn : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_HtF6xTYCwXoblH9pob\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4\n\n\u25a0 X : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_ANQRYKXBRMZ4yLi7rNT1\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (fil) : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_p3IexnOBWJJ7OyDj9OGDn\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375623/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/horizontal.mp4\n\n\u25a0 Rep\u00e8re Fun\u00e9raire (Reel) : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-10-31T08:00:00+00:00\n    date : 2026-10-31T08:00:00+00:00\n    id Post For Me : sp_xuXussadck7g0ObCdNU0\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1793375625/udr-publish/UDR_jourpourjour_Aimable_ivoire_V1/vertical.mp4\n","skipped":[],"summary":{"programm\u00e9":9},"title":"Jour pour jour : Aimable, 31 octobre 1997","warnings":[]}
+
+RESULTAT_JSON_FIN
