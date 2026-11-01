@@ -1,0 +1,55 @@
+{
+  "id": "UDR_toussaint_fleur_V1",
+  "title": "Toussaint 2026 : une fleur, une pensée",
+  "publish": {
+    "mode": "live",
+    "schedule": "2026-11-01T10:00:00+01:00",
+    "linkedin_schedule": "2026-11-01T10:00:00+01:00"
+  },
+  "media": {
+    "vertical": "UDR_toussaint_fleur_V1_9x16.mp4",
+    "horizontal": "UDR_toussaint_fleur_V1_16x9.mp4"
+  },
+  "posts": {
+    "facebook": {
+      "media": "horizontal",
+      "text": "Toussaint. Aujourd'hui, partout en France, des familles iront fleurir une tombe, allumer une bougie ou simplement penser à quelqu'un.\n\nUne fleur, une pensée pour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\n\n👉 undernierregard.fr\n\nÀ qui pensez-vous aujourd'hui ?"
+    },
+    "instagram": {
+      "media": "vertical",
+      "text": "Toussaint. Une fleur, une pensée.\nPour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\nUn dernier regard — les hommages des familles, diffusés par la télévision locale.\n🔗 undernierregard.fr (lien en bio)\n.\n.\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "tiktok": {
+      "media": "vertical",
+      "text": "Toussaint.\nUne fleur, une pensée.\nPour ceux qui nous ont quittés.\nÀ qui pensez-vous aujourd'hui ?\n#hommage #mémoire #undernierregard #vosges #aube"
+    },
+    "youtube": {
+      "media": "horizontal",
+      "title": "Toussaint : une fleur, une pensée — un dernier regard",
+      "text": "Une fleur, une pensée pour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\n\n👉 undernierregard.fr"
+    },
+    "youtube_shorts": {
+      "media": "vertical",
+      "title": "Toussaint : une fleur, une pensée #Shorts",
+      "text": "Pour tous ceux qui nous ont quittés.\n\n👉 undernierregard.fr"
+    },
+    "linkedin": {
+      "media": "horizontal",
+      "text": "Toussaint. Une fleur, une pensée pour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\n\nÀ toutes les équipes des pompes funèbres et des télévisions locales qui accompagnent les familles en ces jours, merci.\n\nundernierregard.fr"
+    },
+    "x": {
+      "media": "horizontal",
+      "text": "Toussaint. Une fleur, une pensée pour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\nundernierregard.fr"
+    },
+    "facebook_repere": {
+      "media": "horizontal",
+      "text": "Toussaint. Aujourd'hui, des millions de Français iront fleurir une tombe, souvent d'un chrysanthème, la fleur qui tient au froid de novembre.\n\nUne fleur, une pensée pour tous ceux qui nous ont quittés, et pour ceux qui les gardent en mémoire.\n\n👉 reperefuneraire.fr\n\nAllez-vous au cimetière aujourd'hui ?"
+    },
+    "facebook_repere_reel": {
+      "media": "vertical",
+      "text": "Toussaint. Une fleur, une pensée pour tous ceux qui nous ont quittés.\n\n👉 reperefuneraire.fr"
+    }
+  },
+  "founder_comment": "",
+  "notes": ""
+}
