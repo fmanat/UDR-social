@@ -1,0 +1,54 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_jourpourjour_A_Gance_ivoire_V1
+[UDR publication] UDR_jourpourjour_A_Gance_ivoire_V1 — suivi : 8 programmé
+
+Rapport généré le 2026-11-09T16:35:02+00:00 (UTC)
+
+■ Facebook : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_mZBqvHTrGE7iccD7IAzZ2
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211256/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/horizontal.mp4
+
+■ Instagram : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_unQwxQtQCkf04aeCS5xjM
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211258/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/vertical.mp4
+
+■ YouTube : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_6fVbXsFbqKkCYOivhO91A
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211256/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/horizontal.mp4
+
+■ YouTube Shorts : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_Erx907s9L1aH3ElL2hESB
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211258/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/vertical.mp4
+
+■ TikTok : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_uY0sqMGef7LIDaC15UCz
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211258/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/vertical.mp4
+
+■ LinkedIn : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_iONG60MTPlE0Pjlce4PU
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211256/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/horizontal.mp4
+
+■ X : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_7ABVJeThZyRdCIydVTaf
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211256/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/horizontal.mp4
+
+■ Repère Funéraire (Reel) : PROGRAMMÉ
+    statut Post For Me : scheduled
+    date : 2026-11-10T08:00:00+00:00
+    id Post For Me : sp_6w67zoixx3YeseD2qYykB
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794211258/udr-publish/UDR_jourpourjour_A_Gance_ivoire_V1/vertical.mp4
+
