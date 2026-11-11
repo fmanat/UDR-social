@@ -1,0 +1,30 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage
+[UDR publication] UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage — suivi : 3 publié, 1 en erreur
+
+Rapport généré le 2026-11-11T15:42:37+00:00 (UTC)
+
+■ Facebook : PUBLIÉ
+    publié
+    id Post For Me : sp_0a6XaHoHT9OfZYPkC8TQr
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409223/udr-publish/UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage/horizontal.mp4
+    post : https://facebook.com/1123271940877731/videos/1508783337968503
+
+■ Instagram : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "AeNxUfOPJm1EIuflBOtqKCu", "error_subcode": 0}}
+    id Post For Me : sp_hbhkQIYzLj2KWymex8Pi
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409225/udr-publish/UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage/vertical.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
+■ Repère Funéraire (fil) : PUBLIÉ
+    publié
+    id Post For Me : sp_9HqkqhSMSrEPrFtiIE7W
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409223/udr-publish/UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage/horizontal.mp4
+    post : https://facebook.com/1457549967433001/videos/1812138796493286
+
+■ Repère Funéraire (Reel) : PUBLIÉ
+    publié
+    id Post For Me : sp_87JpMVsi7kQ6DfIR67gaS
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409225/udr-publish/UDR_jourpourjour_C_deGaulle_ivoire_V1_rattrapage/vertical.mp4
+    post : https://www.facebook.com/reel/1777581303297916/
+
