@@ -96,7 +96,19 @@
         "media": { "enum": ["vertical", "horizontal"] },
         "title": { "type": "string", "minLength": 1 },
         "text": { "type": "string", "minLength": 1 },
-        "enabled": { "type": "boolean", "default": true }
+        "enabled": { "type": "boolean", "default": true },
+        "tags": {
+          "description": "YouTube : mots-clés de la vidéo (snippet.tags). 500 caractères au plus en tout.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 100 },
+          "maxItems": 50
+        },
+        "thumbnail_ms": {
+          "description": "YouTube (vidéo horizontale) : instant de la vidéo, en millisecondes, pris comme miniature. Ignoré par YouTube pour les Shorts.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 600000
+        }
       }
     }
   }

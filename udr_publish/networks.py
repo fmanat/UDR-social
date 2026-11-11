@@ -48,14 +48,17 @@ def account_configuration(network: Network, post: dict) -> dict:
     """Réglages propres au réseau, sans jamais toucher au texte.
 
     Le texte part tel quel dans `caption` ; seul le titre YouTube (fourni par
-    posts.json) et les réglages de visibilité sont ajoutés ici.
+    posts.json), ses mots-clés et les réglages de visibilité sont ajoutés ici.
     """
     if network.platform == "youtube":
-        return {
+        config = {
             "title": post["title"],
             "privacy_status": "public",
             "made_for_kids": False,
         }
+        if post.get("tags"):
+            config["tags"] = list(post["tags"])
+        return config
     if network.platform == "tiktok":
         return {"privacy_status": "public"}
     if network.placement:

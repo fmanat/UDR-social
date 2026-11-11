@@ -87,3 +87,35 @@ def test_invalid_json_is_refused(tmp_path, settings):
     (tmp_path / "posts.json").write_text("{pas du json", encoding="utf-8")
     result = validate_pack(tmp_path, settings, now=NOW)
     assert not result.ok and "JSON" in result.errors[0]
+
+
+def test_youtube_tags_and_thumbnail_are_accepted(make_pack, settings):
+    def mutate(p):
+        p["posts"]["youtube"]["tags"] = ["Thierry Le Luron", "jour pour jour", "hommage"]
+        p["posts"]["youtube"]["thumbnail_ms"] = 12000
+    result = validate_pack(make_pack(mutate), settings, now=NOW)
+    assert result.ok, result.errors
+
+
+def test_youtube_tags_over_500_chars_are_refused(make_pack, settings):
+    def mutate(p):
+        p["posts"]["youtube"]["tags"] = [f"mot clé {i:02d}" for i in range(45)]
+    result = validate_pack(make_pack(mutate), settings, now=NOW)
+    assert not result.ok
+    assert any("500 au plus" in e for e in result.errors)
+
+
+def test_tags_or_thumbnail_outside_youtube_are_refused(make_pack, settings):
+    def mutate(p):
+        p["posts"]["facebook"]["tags"] = ["hommage"]
+    result = validate_pack(make_pack(mutate), settings, now=NOW)
+    assert not result.ok
+
+
+def test_duplicate_or_comma_tags_are_refused(make_pack, settings):
+    def mutate(p):
+        p["posts"]["youtube"]["tags"] = ["Hommage", "hommage", "a,b"]
+    result = validate_pack(make_pack(mutate), settings, now=NOW)
+    assert not result.ok
+    assert any("double" in e for e in result.errors)
+    assert any("virgule" in e for e in result.errors)

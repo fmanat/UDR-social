@@ -40,11 +40,18 @@ def external_id(pack_id: str, network_key: str) -> str:
     return f"{pack_id}:{network_key}"
 
 
+def media_item(plan: NetworkPlan, media_url: str) -> dict:
+    item: dict = {"url": media_url}
+    if plan.network.platform == "youtube" and plan.post.get("thumbnail_ms") is not None:
+        item["thumbnail_timestamp_ms"] = plan.post["thumbnail_ms"]
+    return item
+
+
 def build_payload(pack: ValidatedPack, plan: NetworkPlan, account_id: str, media_url: str) -> dict:
     payload: dict = {
         "caption": plan.post["text"],          # tel quel
         "social_accounts": [account_id],
-        "media": [{"url": media_url}],
+        "media": [media_item(plan, media_url)],
         "external_id": external_id(pack.pack_id, plan.network.key),
         "isDraft": pack.mode == "draft",
     }

@@ -33,6 +33,9 @@ Post For Me.
   en erreur, à vérifier, déjà envoyé) et le message de l'API.
 - **Textes tels quels** : aucun ajout. Tout texte que Post For Me modifierait (X > 280,
   nettoyage Instagram, titre YouTube, > 2200 caractères…) fait refuser le pack.
+- **YouTube** : `tags` (mots-clés) et `thumbnail_ms` (instant de la vidéo 16:9 pris comme
+  miniature) sont facultatifs dans `posts.youtube` ; `tags` aussi dans `posts.youtube_shorts`.
+  Règles des Jour pour jour : [docs/JOUR_POUR_JOUR_YOUTUBE.md](docs/JOUR_POUR_JOUR_YOUTUBE.md).
 - **Vidéos** : MP4 H.264, 1080×1920 (verticale) et 1920×1080 (horizontale), 25 i/s,
   AAC stéréo 128 kbit/s ; sinon le pack est refusé. Ce format évite le réencodage de
   Post For Me.

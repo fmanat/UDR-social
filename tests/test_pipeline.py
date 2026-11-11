@@ -179,3 +179,18 @@ def test_journal_records_every_step(make_pack, settings, world):
     Publisher(settings, session=world).run(make_pack(only("facebook")))
     events = [json.loads(line)["event"] for line in settings.journal_path.read_text().splitlines()]
     assert events == ["received", "upload", "post"]
+
+
+def test_youtube_tags_and_thumbnail_reach_postforme(make_pack, settings, world):
+    def mutate(p):
+        p["posts"]["youtube"]["tags"] = ["jour pour jour", "hommage"]
+        p["posts"]["youtube"]["thumbnail_ms"] = 9000
+    rep = Publisher(settings, session=world).run(make_pack(mutate))
+    assert rep["ok"], rep["report_text"]
+    by_key = {b["external_id"].split(":")[1]: b for m, _, b, _ in world.calls if m == "POST"}
+    yt = by_key["youtube"]
+    assert yt["account_configurations"][0]["configuration"]["tags"] == ["jour pour jour", "hommage"]
+    assert yt["media"][0]["thumbnail_timestamp_ms"] == 9000
+    assert "tags" not in by_key["youtube_shorts"]["account_configurations"][0]["configuration"]
+    assert "thumbnail_timestamp_ms" not in by_key["youtube_shorts"]["media"][0]
+    assert list(by_key["facebook"]["media"][0]) == ["url"]

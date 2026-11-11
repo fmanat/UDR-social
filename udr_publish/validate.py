@@ -6,6 +6,7 @@ Un pack invalide est refusé en entier : aucun réseau n'est touché.
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -70,6 +71,36 @@ def _schema_errors(data: object) -> list[str]:
     return errors
 
 
+YOUTUBE_TAGS_MAX = 500
+
+
+def youtube_tags_length(tags: list[str]) -> int:
+    """Longueur comptée par YouTube : virgules entre mots-clés, guillemets autour de ceux qui ont une espace."""
+    return sum(len(t) + (2 if " " in t else 0) for t in tags) + max(len(tags) - 1, 0)
+
+
+def youtube_extra_problems(platform: str, post: dict) -> list[str]:
+    """Mots-clés et miniature : réservés à YouTube, et mots-clés dans les limites de YouTube."""
+    problems: list[str] = []
+    tags = post.get("tags")
+    thumb = post.get("thumbnail_ms")
+    if platform != "youtube":
+        if tags:
+            problems.append("mots-clés (tags) : réservés à YouTube")
+        if thumb is not None:
+            problems.append("miniature (thumbnail_ms) : réservée à YouTube")
+        return problems
+    if tags:
+        if any(re.search(r"[<>,]", t) or t != t.strip() for t in tags):
+            problems.append("mots-clés : pas de < > ni de virgule, pas d'espace en début ou fin")
+        if len({t.lower() for t in tags}) != len(tags):
+            problems.append("mots-clés en double")
+        size = youtube_tags_length(tags)
+        if size > YOUTUBE_TAGS_MAX:
+            problems.append(f"mots-clés : {size} caractères comptés par YouTube, {YOUTUBE_TAGS_MAX} au plus")
+    return problems
+
+
 def validate_pack(
     directory: Path,
     settings: Settings,
@@ -125,6 +156,8 @@ def validate_pack(
             continue
 
         for problem in text_problems(network.key, post["text"], post.get("title")):
+            errors.append(f"{network.label} : {problem}")
+        for problem in youtube_extra_problems(network.platform, post):
             errors.append(f"{network.label} : {problem}")
         for warning in text_warnings(post["text"]):
             warnings.append(f"{network.label} : {warning}")
