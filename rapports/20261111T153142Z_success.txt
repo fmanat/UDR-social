@@ -1,0 +1,19 @@
+Clé reçue : 52 caractères
+Envoi du pack UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig (live, 2026-11-11T16:38:00+01:00)
+HTTP 200
+[UDR publication] UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig — live — dépôt : 1 programmé
+
+Pack : Jour pour jour : 11 novembre 1918 (UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-11-11T15:31:33+00:00 (UTC)
+
+■ Instagram : PROGRAMMÉ
+    programmé pour 2026-11-11T15:38:00+00:00
+    date : 2026-11-11T15:38:00+00:00
+    id Post For Me : sp_q5UR5BcstYB7uGrgtF6QL
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794411099/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig/vertical.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-11-11T15:31:33+00:00","kind":"depot","media":{"vertical":{"file":"UDR_jourpourjour_Armistice_bleuet_ivoire_V1_9x16.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1794411099/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig/vertical.mp4"}},"mode":"live","networks":[{"api_error":"","label":"Instagram","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1794411099/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig/vertical.mp4"},"message":"programm\u00e9 pour 2026-11-11T15:38:00+00:00","network":"instagram","pfm_post_id":"sp_q5UR5BcstYB7uGrgtF6QL","scheduled_at":"2026-11-11T15:38:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig","refused":false,"report_subject":"[UDR publication] UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig \u2014 live \u2014 d\u00e9p\u00f4t : 1 programm\u00e9","report_text":"[UDR publication] UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig \u2014 live \u2014 d\u00e9p\u00f4t : 1 programm\u00e9\n\nPack : Jour pour jour : 11 novembre 1918 (UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-11-11T15:31:33+00:00 (UTC)\n\n\u25a0 Instagram : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-11-11T15:38:00+00:00\n    date : 2026-11-11T15:38:00+00:00\n    id Post For Me : sp_q5UR5BcstYB7uGrgtF6QL\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794411099/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage_ig/vertical.mp4\n","skipped":[],"summary":{"programm\u00e9":1},"title":"Jour pour jour : 11 novembre 1918","warnings":[]}
+
+RESULTAT_JSON_FIN
