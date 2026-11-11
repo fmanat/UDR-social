@@ -1,0 +1,59 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_jourpourjour_Armistice_bleuet_ivoire_V1
+[UDR publication] UDR_jourpourjour_Armistice_bleuet_ivoire_V1 — suivi : 5 en erreur, 4 publié
+
+Rapport généré le 2026-11-11T14:43:41+00:00 (UTC)
+
+■ Facebook : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "AS4n0IyedeGO2jRvKgMkfgk", "error_subcode": 460}}
+    id Post For Me : sp_7tfuac8NjFn6pi6f7LcP
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249702/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/horizontal.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
+■ Instagram : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "AlHHFnNqnf5-3-7ZSK03XIc", "error_subcode": 0}}
+    id Post For Me : sp_rfHbGAhkt69tpWXSyUHhJ
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249704/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/vertical.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
+■ YouTube : PUBLIÉ
+    publié
+    id Post For Me : sp_85cczQ1DjUr7DW4V0Na
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249702/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/horizontal.mp4
+    post : https://www.youtube.com/watch?v=4KNEqSNYLso
+
+■ YouTube Shorts : EN ERREUR
+    suivi impossible : HTTP 429 : {'code': 'err:frontline:client:rate_limited', 'message': 'Rate limit exceeded. Please try again later.'}
+    id Post For Me : sp_7AmSAgd9Bc99hS3osWX2m
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249704/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/vertical.mp4
+
+■ TikTok : PUBLIÉ
+    publié (lien du profil TikTok : Post For Me ne renvoie pas le lien de la vidéo)
+    id Post For Me : sp_vawDz1LK99SvVSXVka9C2
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249704/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/vertical.mp4
+    post : https://www.tiktok.com/@un.dernier.regard
+
+■ LinkedIn : PUBLIÉ
+    publié
+    id Post For Me : sp_D0vewLIs7IMetfpBhOeR5
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249702/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/horizontal.mp4
+    post : https://www.linkedin.com/feed/update/urn:li:ugcPost:7526192465217974272
+
+■ X : PUBLIÉ
+    publié
+    id Post For Me : sp_gmWi5ivsa5Xoo4IRGXN
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249702/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/horizontal.mp4
+    post : https://twitter.com/user/status/2120426751578824851
+
+■ Repère Funéraire (fil) : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "AGOq_3w1C_w0kHop9d19kGe", "error_subcode": 460}}
+    id Post For Me : sp_2pJwAH5RFPHclGAU0gMMy
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249702/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/horizontal.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
+■ Repère Funéraire (Reel) : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "A5pnhkrmSmruXaZyqKuOn87", "error_subcode": 460}}
+    id Post For Me : sp_7B842bLZBxzQiMAI6PQv
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794249704/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1/vertical.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
