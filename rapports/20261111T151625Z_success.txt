@@ -1,0 +1,30 @@
+Clé reçue : 52 caractères
+Suivi du pack UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage
+[UDR publication] UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage — suivi : 3 publié, 1 en erreur
+
+Rapport généré le 2026-11-11T15:16:23+00:00 (UTC)
+
+■ Facebook : PUBLIÉ
+    publié
+    id Post For Me : sp_F8nFmyg27qi7L6Y7XqH6
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409289/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage/horizontal.mp4
+    post : https://facebook.com/1123271940877731/videos/1149077428057732
+
+■ Instagram : EN ERREUR
+    Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. — {"error": {"code": 190, "type": "OAuthException", "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.", "fbtrace_id": "AEr5IxQfbZEHf-OmVulWXIj", "error_subcode": 0}}
+    id Post For Me : sp_gj33N88a9DkbSoMX4jf9j
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409292/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage/vertical.mp4
+    réponse de l'API : Account needs to be reconnected: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.
+
+■ Repère Funéraire (fil) : PUBLIÉ
+    publié
+    id Post For Me : sp_sbGcS2RPkWkPFVxTVSbqb
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409289/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage/horizontal.mp4
+    post : https://facebook.com/1457549967433001/videos/1822987752239839
+
+■ Repère Funéraire (Reel) : PUBLIÉ
+    publié
+    id Post For Me : sp_JorS9rq8EXyVU1lDcwa8i
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1794409292/udr-publish/UDR_jourpourjour_Armistice_bleuet_ivoire_V1_rattrapage/vertical.mp4
+    post : https://www.facebook.com/reel/1152113707493395/
+
