@@ -1,0 +1,19 @@
+Clé reçue : 64 caractères
+Envoi du pack UDR_jourpourjour_C_Grant_ivoire_V1_yt (live, 2026-11-29T09:00:00+01:00)
+HTTP 200
+[UDR publication] UDR_jourpourjour_C_Grant_ivoire_V1_yt — live — dépôt : 1 programmé
+
+Pack : Jour pour jour : Cary Grant, 29 novembre 1986 (UDR_jourpourjour_C_Grant_ivoire_V1_yt)
+Mode : LIVE — posts programmés
+Rapport généré le 2026-11-24T11:14:25+00:00 (UTC)
+
+■ YouTube : PROGRAMMÉ
+    programmé pour 2026-11-29T08:00:00+00:00
+    date : 2026-11-29T08:00:00+00:00
+    id Post For Me : sp_A3XA2MI0Kk1nmp0AE1tz
+    vidéo : https://res.cloudinary.com/dl8itl9nw/video/upload/v1795518866/udr-publish/UDR_jourpourjour_C_Grant_ivoire_V1_yt/horizontal.mp4
+
+RESULTAT_JSON_DEBUT
+{"errors":[],"generated_at":"2026-11-24T11:14:25+00:00","kind":"depot","media":{"horizontal":{"file":"UDR_jourpourjour_C_Grant_ivoire_V1_16x9.mp4","reused":false,"url":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1795518866/udr-publish/UDR_jourpourjour_C_Grant_ivoire_V1_yt/horizontal.mp4"}},"mode":"live","networks":[{"api_error":"","label":"YouTube","links":{"video":"https://res.cloudinary.com/dl8itl9nw/video/upload/v1795518866/udr-publish/UDR_jourpourjour_C_Grant_ivoire_V1_yt/horizontal.mp4"},"message":"programm\u00e9 pour 2026-11-29T08:00:00+00:00","network":"youtube","pfm_post_id":"sp_A3XA2MI0Kk1nmp0AE1tz","scheduled_at":"2026-11-29T08:00:00+00:00","status":"programm\u00e9"}],"ok":true,"pack_id":"UDR_jourpourjour_C_Grant_ivoire_V1_yt","refused":false,"report_subject":"[UDR publication] UDR_jourpourjour_C_Grant_ivoire_V1_yt \u2014 live \u2014 d\u00e9p\u00f4t : 1 programm\u00e9","report_text":"[UDR publication] UDR_jourpourjour_C_Grant_ivoire_V1_yt \u2014 live \u2014 d\u00e9p\u00f4t : 1 programm\u00e9\n\nPack : Jour pour jour : Cary Grant, 29 novembre 1986 (UDR_jourpourjour_C_Grant_ivoire_V1_yt)\nMode : LIVE \u2014 posts programm\u00e9s\nRapport g\u00e9n\u00e9r\u00e9 le 2026-11-24T11:14:25+00:00 (UTC)\n\n\u25a0 YouTube : PROGRAMM\u00c9\n    programm\u00e9 pour 2026-11-29T08:00:00+00:00\n    date : 2026-11-29T08:00:00+00:00\n    id Post For Me : sp_A3XA2MI0Kk1nmp0AE1tz\n    vid\u00e9o : https://res.cloudinary.com/dl8itl9nw/video/upload/v1795518866/udr-publish/UDR_jourpourjour_C_Grant_ivoire_V1_yt/horizontal.mp4\n","skipped":[],"summary":{"programm\u00e9":1},"title":"Jour pour jour : Cary Grant, 29 novembre 1986","warnings":[]}
+
+RESULTAT_JSON_FIN
